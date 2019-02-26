@@ -8,9 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PlutoTest {
 
+    Rover rover = new Rover();
+
+
     @Test
     public void moveForward() {
-        Rover rover = new Rover();
         rover.execute("F");
         assertEquals(0, rover.getX());
         assertEquals(1, rover.getY());
@@ -18,7 +20,6 @@ public class PlutoTest {
 
     @Test
     public void moveBackwards() {
-        Rover rover = new Rover();
         rover.execute("B");
         assertEquals(0, rover.getX());
         assertEquals(-1, rover.getY());
@@ -26,7 +27,6 @@ public class PlutoTest {
 
     @Test
     public void turnRight() {
-        Rover rover = new Rover();
         rover.execute("R");
         assertEquals(0, rover.getX());
         assertEquals(0, rover.getY());
@@ -35,7 +35,6 @@ public class PlutoTest {
 
     @Test
     public void turnLeft() {
-        Rover rover = new Rover();
         rover.execute("L");
         assertEquals(0, rover.getX());
         assertEquals(0, rover.getY());
