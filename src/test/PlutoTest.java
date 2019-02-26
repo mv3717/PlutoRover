@@ -40,7 +40,6 @@ public class PlutoTest {
         assertEquals(0, rover.getX());
         assertEquals(0, rover.getY());
         assertEquals(Direction.WEST, rover.getDirection());
-
     }
 
 }

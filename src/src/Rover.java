@@ -11,6 +11,7 @@ public class Rover {
         x = 0;
         y = 0;
         direction = Direction.NORTH;
+        direction.setDegrees(0);
     }
 
     public int getX() {
@@ -33,16 +34,36 @@ public class Rover {
         return direction;
     }
 
-    public void setDirection(Direction direction) {
-        this.direction = direction;
-    }
-
     public void execute(String commands) {
         for (Character command : commands.toCharArray()) {
             switch(command) {
-                case 'F': y += 1; break;
-                case 'B': y -= 1;
+                case 'F':
+                    y += 1;
+                    break;
+                case 'B':
+                    y -= 1;
+                    break;
+                case 'R':
+                   direction.turn(Rotation.CLOCKWISE);
+                   updateDirection();
+                   break;
+                case 'L':
+                    direction.turn(Rotation.ANTICLOCKWISE);
+                    updateDirection();
+                    break;
             }
+        }
+    }
+
+    private void updateDirection() {
+        if (direction.getDegrees() == 0) {
+            direction = Direction.NORTH;
+        } else if (direction.getDegrees() == 90) {
+            direction = Direction.EAST;
+        } else if (direction.getDegrees() == 180) {
+            direction = Direction.SOUTH;
+        } else {
+            direction = Direction.WEST;
         }
     }
 }
