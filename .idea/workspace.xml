@@ -1,46 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85787462-97d1-47fc-ac60-500b70e648ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PlutoRover.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PlutoRover.iml" afterDir="false" />
+    <list default="true" id="712cda2b-6565-4b06-a982-856a34cb9cf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/PlutoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PlutoRover.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/PlutoTests" beforeDir="false" afterPath="$PROJECT_DIR$/tests/PlutoTests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Rover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/PlutoTests" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-774652974">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="PlutoTests" value="1" />
-          <entry key="java" value="1" />
+          <entry key="PlutoTests" value="2" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="5" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="PlutoTests" value="160" />
-          <entry key="java" value="55" />
+          <entry key="PlutoTests" value="34" />
+          <entry key="java" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="215" />
+          <entry key="JAVA" value="118" />
         </counts>
       </usages-collector>
     </session>
@@ -48,29 +56,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rover.java">
+        <entry file="file://$PROJECT_DIR$/src/src/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-              <folding>
-                <element signature="e#44#45#0" expanded="true" />
-                <element signature="e#68#69#0" expanded="true" />
-                <element signature="e#99#100#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/PlutoTests">
+        <entry file="file://$PROJECT_DIR$/src/test/PlutoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="270">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,22 +98,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Rover.java" />
-        <option value="$PROJECT_DIR$/tests/PlutoTests" />
+        <option value="$PROJECT_DIR$/test/PlutoRover/PlutoTests" />
+        <option value="$PROJECT_DIR$/test/PlutoRover/Rover.java" />
+        <option value="$PROJECT_DIR$/test/PlutoTests" />
+        <option value="$PROJECT_DIR$/src/src/Rover.java" />
+        <option value="$PROJECT_DIR$/src/test/PlutoTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="293" />
-    <option name="y" value="53" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="1843" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,13 +133,19 @@
             <path>
               <item name="PlutoRover" type="b2602c69:ProjectViewProjectNode" />
               <item name="PlutoRover" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PlutoRover" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PlutoRover" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -145,12 +153,18 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551194969645" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551196170712" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="PlutoRover" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,18 +178,73 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.PlutoTest.moveForward">
+    <configuration name="PlutoTest.moveForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlutoRover" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PlutoTest" />
+      <option name="METHOD_NAME" value="moveForward" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlutoTests.moveForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlutoRover" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlutoTests" />
+      <option name="METHOD_NAME" value="moveForward" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.PlutoTests.moveForward" />
+      <item itemvalue="JUnit.PlutoTest.moveForward" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PlutoTest.moveForward" />
+        <item itemvalue="JUnit.PlutoTests.moveForward" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="85787462-97d1-47fc-ac60-500b70e648ad" name="Default Changelist" comment="" />
-      <created>1551194374049</created>
+      <changelist id="712cda2b-6565-4b06-a982-856a34cb9cf3" name="Default Changelist" comment="" />
+      <created>1551195651264</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1551194374049</updated>
+      <updated>1551195651264</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PlutoTests_moveForward - 2019.02.26 at 15h 42m 55s.xml">
+      <configuration name="PlutoTests.moveForward" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTests_moveForward - 2019.02.26 at 15h 43m 49s.xml">
+      <configuration name="PlutoTests.moveForward" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTests_moveForward - 2019.02.26 at 15h 45m 08s.xml">
+      <configuration name="PlutoTests.moveForward" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTests_moveForward - 2019.02.26 at 15h 45m 27s.xml">
+      <configuration name="PlutoTests.moveForward" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTests_moveForward - 2019.02.26 at 15h 45m 43s.xml">
+      <configuration name="PlutoTests.moveForward" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -186,16 +255,17 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Tool Output" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="ANTLR Preview" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -214,27 +284,50 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Rover.java">
+    <entry file="file://$PROJECT_DIR$/test/PlutoRover/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="e#44#45#0" expanded="true" />
-            <element signature="e#68#69#0" expanded="true" />
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/PlutoTests">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/PlutoTests">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/PlutoTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Rover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/PlutoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -298,7 +391,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -306,7 +398,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
