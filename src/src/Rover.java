@@ -4,12 +4,16 @@ public class Rover {
 
     private int x;
     private int y;
+    private int width;
+    private int length;
 
     private Direction direction;
 
-    public Rover() {
+    public Rover(int width, int length) {
         x = 0;
         y = 0;
+        this.width = width;
+        this.length = length;
         direction = Direction.NORTH;
         direction.setDegrees(0);
     }
