@@ -77,5 +77,15 @@ public class PlutoTest {
         assertEquals(0, rover.getY());
     }
 
+    @Test
+    public void extensiveWrapping() {
+        rover.execute("RFFRF");
+        assertEquals(2, rover.getX());
+        assertEquals(10, rover.getY());
+        rover.execute("B");
+        assertEquals(2, rover.getX());
+        assertEquals(0, rover.getY());
+    }
+
 
 }
