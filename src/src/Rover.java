@@ -36,22 +36,39 @@ public class Rover {
 
     public void execute(String commands) {
         for (Character command : commands.toCharArray()) {
-            switch(command) {
+            switch (command) {
                 case 'F':
-                    y += 1;
+                    move(1);
                     break;
                 case 'B':
-                    y -= 1;
+                    move(-1);
                     break;
                 case 'R':
-                   direction.turn(Rotation.CLOCKWISE);
-                   updateDirection();
-                   break;
+                    direction.turn(Rotation.CLOCKWISE);
+                    updateDirection();
+                    break;
                 case 'L':
                     direction.turn(Rotation.ANTICLOCKWISE);
                     updateDirection();
                     break;
             }
+        }
+    }
+
+    public void move(int amount) {
+        switch (direction) {
+            case EAST:
+                x += amount;
+                break;
+            case WEST:
+                x -= amount;
+                break;
+            case NORTH:
+                y += amount;
+                break;
+            case SOUTH:
+                y -= amount;
+                break;
         }
     }
 
