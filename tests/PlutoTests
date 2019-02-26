@@ -1,3 +1,16 @@
+import org.junit.Test;
+
+import static junit.framework.TestCase.assertEquals;
+
 public class PlutoTests {
+
+    @Test
+    public void moveForward() {
+        Rover rover = new Rover();
+        rover.execute("R");
+        assertEquals(0, rover.getX());
+        assertEquals(1, rover.getY());
+    }
+
 
 }
