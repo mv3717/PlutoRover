@@ -73,8 +73,8 @@ public class PlutoTest {
     @Test
     public void moveLeftWrapps() {
         rover.execute("LF");
-        assertEquals(0, rover.getX());
-        assertEquals(10, rover.getY());
+        assertEquals(10, rover.getX());
+        assertEquals(0, rover.getY());
     }
 
 

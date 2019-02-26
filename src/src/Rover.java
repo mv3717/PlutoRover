@@ -74,6 +74,16 @@ public class Rover {
                 y -= amount;
                 break;
         }
+        x = x % (width + 1);
+        y = y % (length + 1);
+
+        if (x == -1) {
+            x = width;
+        }
+
+        if (y == -1) {
+            y = length;
+        }
     }
 
     private void updateDirection() {
