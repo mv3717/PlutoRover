@@ -15,5 +15,12 @@ public class PlutoTest {
         assertEquals(1, rover.getY());
     }
 
+    @Test
+    public void moveBackwards() {
+        Rover rover = new Rover();
+        rover.execute("B");
+        assertEquals(0, rover.getX());
+        assertEquals(-1, rover.getY());
+    }
 
 }
