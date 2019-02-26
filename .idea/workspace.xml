@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="712cda2b-6565-4b06-a982-856a34cb9cf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/src/Obstacle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlutoRover/src/Rover$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlutoRover/src/Rover$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlutoRover/src/Rover.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlutoRover/src/Rover.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlutoRover/test/PlutoTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Obstacle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Planet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Rover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/PlutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/PlutoTest.java" afterDir="false" />
     </list>
@@ -45,12 +41,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="PlutoTests" value="34" />
-          <entry key="java" value="2032" />
+          <entry key="java" value="2428" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2066" />
+          <entry key="JAVA" value="2462" />
         </counts>
       </usages-collector>
     </session>
@@ -60,9 +56,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+            <state relative-caret-position="253">
+              <caret line="113" column="57" selection-start-line="113" selection-start-column="57" selection-end-line="113" selection-end-column="57" />
               <folding>
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
                 <element signature="e#269#270#0" expanded="true" />
                 <element signature="e#293#294#0" expanded="true" />
                 <element signature="e#460#461#0" expanded="true" />
@@ -75,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/PlutoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="285">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,14 +85,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/Planet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="420">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#86#87#0" expanded="true" />
                 <element signature="e#114#115#0" expanded="true" />
                 <element signature="e#144#145#0" expanded="true" />
                 <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
                 <element signature="e#325#326#0" expanded="true" />
                 <element signature="e#439#449#0" expanded="true" />
               </folding>
@@ -105,8 +104,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/Obstacle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="75">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/Direction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+            <state relative-caret-position="388">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#126#127#0" expanded="true" />
                 <element signature="e#156#157#0" expanded="true" />
@@ -165,11 +171,11 @@
         <option value="$PROJECT_DIR$/test/PlutoTests" />
         <option value="$PROJECT_DIR$/src/src/Directions.java" />
         <option value="$PROJECT_DIR$/src/src/Rotation.java" />
-        <option value="$PROJECT_DIR$/src/src/Rover.java" />
         <option value="$PROJECT_DIR$/src/src/Obstacles.java" />
         <option value="$PROJECT_DIR$/src/src/Obstacle.java" />
-        <option value="$PROJECT_DIR$/src/src/Planet.java" />
         <option value="$PROJECT_DIR$/src/src/Direction.java" />
+        <option value="$PROJECT_DIR$/src/src/Planet.java" />
+        <option value="$PROJECT_DIR$/src/src/Rover.java" />
         <option value="$PROJECT_DIR$/src/test/PlutoTest.java" />
       </list>
     </option>
@@ -221,7 +227,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551201610121" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551202467789" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -246,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlutoTest">
+  <component name="RunManager" selected="JUnit.PlutoTest.Obstacledetection">
     <configuration name="PlutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PlutoRover" />
       <extension name="coverage">
@@ -334,8 +340,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlutoTest" />
         <item itemvalue="JUnit.PlutoTest.Obstacledetection" />
+        <item itemvalue="JUnit.PlutoTest" />
         <item itemvalue="JUnit.PlutoTest.turnLeft" />
         <item itemvalue="JUnit.PlutoTest.moveBackwards" />
         <item itemvalue="JUnit.PlutoTest.moveForward" />
@@ -356,35 +362,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlutoTest - 2019.02.26 at 16h 58m 28s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 17h 12m 46s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 17h 13m 15s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 17h 14m 28s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 17h 14m 37s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 17h 15m 12s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 17h 16m 24s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest_Obstacledetection - 2019.02.26 at 17h 17m 31s.xml">
-      <configuration name="PlutoTest.Obstacledetection" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PlutoTest_Obstacledetection - 2019.02.26 at 17h 18m 25s.xml">
       <configuration name="PlutoTest.Obstacledetection" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PlutoTest - 2019.02.26 at 17h 18m 33s.xml">
       <configuration name="PlutoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest - 2019.02.26 at 17h 29m 48s.xml">
+      <configuration name="PlutoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest - 2019.02.26 at 17h 30m 03s.xml">
+      <configuration name="PlutoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest - 2019.02.26 at 17h 31m 26s.xml">
+      <configuration name="PlutoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest_Obstacledetection - 2019.02.26 at 17h 31m 58s.xml">
+      <configuration name="PlutoTest.Obstacledetection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest_Obstacledetection - 2019.02.26 at 17h 32m 18s.xml">
+      <configuration name="PlutoTest.Obstacledetection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest_Obstacledetection - 2019.02.26 at 17h 32m 43s.xml">
+      <configuration name="PlutoTest.Obstacledetection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest_Obstacledetection - 2019.02.26 at 17h 32m 53s.xml">
+      <configuration name="PlutoTest.Obstacledetection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest_Obstacledetection - 2019.02.26 at 17h 33m 21s.xml">
+      <configuration name="PlutoTest.Obstacledetection" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -396,7 +402,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Tool Output" />
       <window_info anchor="bottom" id="Version Control" />
@@ -406,7 +412,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,46 +471,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/Obstacle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/Planet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#439#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/Rover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-          <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+        <state relative-caret-position="388">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#126#127#0" expanded="true" />
             <element signature="e#156#157#0" expanded="true" />
@@ -516,10 +486,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Obstacle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Planet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#439#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Rover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="113" column="57" selection-start-line="113" selection-start-column="57" selection-end-line="113" selection-end-column="57" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/PlutoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="285">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

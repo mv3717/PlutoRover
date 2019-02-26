@@ -26,6 +26,7 @@ public class Planet {
         this.length = length;
         List<Obstacle> obstacles = new ArrayList<Obstacle>();
         Obstacle rock = new Obstacle(1, 1, "rock");
+        obstacles.add(rock);
         this.obstacles = obstacles;
     }
 }

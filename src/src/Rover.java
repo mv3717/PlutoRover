@@ -6,6 +6,12 @@ public class Rover {
     private int y;
     private Planet planet;
 
+    public String getReport() {
+        return report;
+    }
+
+    String report;
+
     private Direction direction;
 
     public Rover(Planet planet) {
@@ -38,6 +44,8 @@ public class Rover {
 
     public void execute(String commands) {
         for (Character command : commands.toCharArray()) {
+            int prevX = x;
+            int prevY = y;
             switch (command) {
                 case 'F':
                     move(1);
@@ -54,10 +62,16 @@ public class Rover {
                     updateDirection();
                     break;
             }
+            if (detectObstacle()) {
+                x = prevX;
+                y = prevY;
+                break;
+            }
         }
     }
 
     public void move(int amount) {
+
         switch (direction) {
             case EAST:
                 x += amount;
@@ -94,5 +108,21 @@ public class Rover {
         } else {
             direction = Direction.WEST;
         }
+    }
+
+    public String getObstacleReport(String obstacleName, int ostacleX, int ostacleY) {
+        return "Obstacle detected: " + obstacleName + " (" + ostacleX + "," + ostacleY + ")";
+
+    }
+
+    private boolean detectObstacle() {
+
+        for (Obstacle obstacle : planet.getObstacles()) {
+            if (obstacle.getX() == x && obstacle.getY() == y) {
+                report = getObstacleReport(obstacle.getName(), obstacle.getX(), obstacle.getY());
+                return true;
+            }
+        }
+        return false;
     }
 }

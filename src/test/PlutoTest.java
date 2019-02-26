@@ -17,7 +17,7 @@ public class PlutoTest {
         rover.execute("FRFFL");
         assertEquals(0, rover.getX());
         assertEquals(1, rover.getY());
-        assertEquals(rover.report("Obstacle detected: rock (0,1)"));
+        assertEquals("Obstacle detected: rock (1,1)", rover.getReport());
     }
 
     @Test
