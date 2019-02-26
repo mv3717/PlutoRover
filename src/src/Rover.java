@@ -29,7 +29,8 @@ public class Rover {
     public void execute(String commands) {
         for (Character command : commands.toCharArray()) {
             switch(command) {
-                case 'F': y+=1;
+                case 'F': y += 1;
+                case 'B': y -= 1;
             }
         }
     }
