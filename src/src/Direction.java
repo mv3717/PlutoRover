@@ -24,6 +24,7 @@ public enum Direction {
         if (rotation.equals(Rotation.CLOCKWISE)) {
             degrees += 90;
         } else {
+            System.out.println(degrees);
             degrees += 270;
         }
         degrees = degrees % 360;

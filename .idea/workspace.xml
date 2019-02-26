@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="712cda2b-6565-4b06-a982-856a34cb9cf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/src/Obstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Planet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PlutoRover/test/PlutoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlutoRover/test/PlutoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlutoRover/src/Rover$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlutoRover/src/Rover$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlutoRover/src/Rover.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PlutoRover/src/Rover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PlutoRover/test/PlutoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Rover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Rover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/PlutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/PlutoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,24 +33,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="PlutoTests" value="2" />
-          <entry key="java" value="6" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="9" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="PlutoTests" value="34" />
-          <entry key="java" value="1542" />
+          <entry key="java" value="2032" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1576" />
+          <entry key="JAVA" value="2066" />
         </counts>
       </usages-collector>
     </session>
@@ -54,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+            <state relative-caret-position="283">
+              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
               <folding>
                 <element signature="e#269#270#0" expanded="true" />
                 <element signature="e#293#294#0" expanded="true" />
@@ -69,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/PlutoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="86" column="38" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
+            <state relative-caret-position="270">
+              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,13 +85,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/Planet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#86#87#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#439#449#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/src/Obstacle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/src/Direction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="328">
+              <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
               <folding>
                 <element signature="e#126#127#0" expanded="true" />
                 <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#258#259#0" expanded="true" />
@@ -131,8 +165,11 @@
         <option value="$PROJECT_DIR$/test/PlutoTests" />
         <option value="$PROJECT_DIR$/src/src/Directions.java" />
         <option value="$PROJECT_DIR$/src/src/Rotation.java" />
-        <option value="$PROJECT_DIR$/src/src/Direction.java" />
         <option value="$PROJECT_DIR$/src/src/Rover.java" />
+        <option value="$PROJECT_DIR$/src/src/Obstacles.java" />
+        <option value="$PROJECT_DIR$/src/src/Obstacle.java" />
+        <option value="$PROJECT_DIR$/src/src/Planet.java" />
+        <option value="$PROJECT_DIR$/src/src/Direction.java" />
         <option value="$PROJECT_DIR$/src/test/PlutoTest.java" />
       </list>
     </option>
@@ -184,7 +221,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551200306869" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551201610121" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -220,6 +257,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.PlutoTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlutoTest.Obstacledetection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PlutoRover" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.PlutoTest" />
+      <option name="METHOD_NAME" value="Obstacledetection" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -272,30 +325,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlutoTests.moveForward" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PlutoRover" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlutoTests" />
-      <option name="METHOD_NAME" value="moveForward" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.PlutoTests.moveForward" />
       <item itemvalue="JUnit.PlutoTest.moveForward" />
       <item itemvalue="JUnit.PlutoTest.moveBackwards" />
       <item itemvalue="JUnit.PlutoTest" />
       <item itemvalue="JUnit.PlutoTest.turnLeft" />
+      <item itemvalue="JUnit.PlutoTest.Obstacledetection" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PlutoTest" />
+        <item itemvalue="JUnit.PlutoTest.Obstacledetection" />
         <item itemvalue="JUnit.PlutoTest.turnLeft" />
         <item itemvalue="JUnit.PlutoTest.moveBackwards" />
         <item itemvalue="JUnit.PlutoTest.moveForward" />
-        <item itemvalue="JUnit.PlutoTests.moveForward" />
       </list>
     </recent_temporary>
   </component>
@@ -313,39 +356,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PlutoTest - 2019.02.26 at 16h 52m 06s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 16h 53m 08s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 16h 54m 30s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 16h 55m 05s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 16h 55m 31s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 16h 56m 09s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 16h 56m 29s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 16h 56m 56s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlutoTest - 2019.02.26 at 16h 57m 46s.xml">
-      <configuration name="PlutoTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PlutoTest - 2019.02.26 at 16h 58m 28s.xml">
+      <configuration name="PlutoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest - 2019.02.26 at 17h 12m 46s.xml">
+      <configuration name="PlutoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest - 2019.02.26 at 17h 13m 15s.xml">
+      <configuration name="PlutoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest - 2019.02.26 at 17h 14m 28s.xml">
+      <configuration name="PlutoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest - 2019.02.26 at 17h 14m 37s.xml">
+      <configuration name="PlutoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest - 2019.02.26 at 17h 15m 12s.xml">
+      <configuration name="PlutoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest - 2019.02.26 at 17h 16m 24s.xml">
+      <configuration name="PlutoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest_Obstacledetection - 2019.02.26 at 17h 17m 31s.xml">
+      <configuration name="PlutoTest.Obstacledetection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest_Obstacledetection - 2019.02.26 at 17h 18m 25s.xml">
+      <configuration name="PlutoTest.Obstacledetection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlutoTest - 2019.02.26 at 17h 18m 33s.xml">
       <configuration name="PlutoTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -362,7 +405,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32972974" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -415,20 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/src/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/Rotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -436,10 +465,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Obstacle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Planet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#439#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/src/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+        <state relative-caret-position="283">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
           <folding>
             <element signature="e#269#270#0" expanded="true" />
             <element signature="e#293#294#0" expanded="true" />
@@ -449,10 +501,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/src/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/PlutoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="86" column="38" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
+        <state relative-caret-position="270">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

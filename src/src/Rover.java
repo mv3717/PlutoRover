@@ -4,16 +4,14 @@ public class Rover {
 
     private int x;
     private int y;
-    private int width;
-    private int length;
+    private Planet planet;
 
     private Direction direction;
 
-    public Rover(int width, int length) {
+    public Rover(Planet planet) {
         x = 0;
         y = 0;
-        this.width = width;
-        this.length = length;
+        this.planet = planet;
         direction = Direction.NORTH;
         direction.setDegrees(0);
     }
@@ -74,15 +72,15 @@ public class Rover {
                 y -= amount;
                 break;
         }
-        x = x % (width + 1);
-        y = y % (length + 1);
+        x = x % (planet.getWidth() + 1);
+        y = y % (planet.getLength() + 1);
 
         if (x == -1) {
-            x = width;
+            x = planet.getWidth();
         }
 
         if (y == -1) {
-            y = length;
+            y = planet.getLength();
         }
     }
 

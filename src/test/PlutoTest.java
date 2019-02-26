@@ -2,14 +2,23 @@ package test;
 
 import org.junit.jupiter.api.Test;
 import src.Direction;
+import src.Planet;
 import src.Rover;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PlutoTest {
 
-    //Rovver expects to have in its constructor the length and width of the planet
-    Rover rover = new Rover(10, 10);
+    Planet pluto = new Planet(10, 10);
+    Rover rover = new Rover(pluto);
+
+    @Test
+    public void Obstacledetection() {
+        rover.execute("FRFFL");
+        assertEquals(0, rover.getX());
+        assertEquals(1, rover.getY());
+        assertEquals(rover.report("Obstacle detected: rock (0,1)"));
+    }
 
     @Test
     public void moveForward() {
@@ -86,6 +95,5 @@ public class PlutoTest {
         assertEquals(2, rover.getX());
         assertEquals(0, rover.getY());
     }
-
 
 }
