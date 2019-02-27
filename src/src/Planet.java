@@ -19,14 +19,15 @@ public class Planet {
         return obstacles;
     }
 
+    public void setObstacles(List<Obstacle> obstacles) {
+        this.obstacles = obstacles;
+    }
+
     private List<Obstacle> obstacles;
 
     public Planet(int width, int length) {
         this.width = width;
         this.length = length;
-        List<Obstacle> obstacles = new ArrayList<Obstacle>();
-        Obstacle rock = new Obstacle(1, 1, "rock");
-        obstacles.add(rock);
-        this.obstacles = obstacles;
+        this.obstacles = new ArrayList<>();
     }
 }

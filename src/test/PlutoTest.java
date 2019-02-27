@@ -2,18 +2,27 @@ package test;
 
 import org.junit.jupiter.api.Test;
 import src.Direction;
+import src.Obstacle;
 import src.Planet;
 import src.Rover;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PlutoTest {
 
-    Planet pluto = new Planet(10, 10);
-    Rover rover = new Rover(pluto);
+    private Planet pluto = new Planet(10, 10);
+    private Rover rover = new Rover(pluto);
 
     @Test
     public void Obstacledetection() {
+        List<Obstacle> obstacles = new ArrayList<Obstacle>();
+        Obstacle rock = new Obstacle(1, 1, "rock");
+        obstacles.add(rock);
+        pluto.setObstacles(obstacles);
+
         rover.execute("FRFFL");
         assertEquals(0, rover.getX());
         assertEquals(1, rover.getY());
@@ -25,6 +34,7 @@ public class PlutoTest {
         rover.execute("F");
         assertEquals(0, rover.getX());
         assertEquals(1, rover.getY());
+        assertEquals("Arrived safely at destination", rover.getReport());
     }
 
     @Test
@@ -32,6 +42,7 @@ public class PlutoTest {
         rover.execute("FFB");
         assertEquals(0, rover.getX());
         assertEquals(1, rover.getY());
+        assertEquals("Arrived safely at destination", rover.getReport());
     }
 
     @Test
@@ -48,6 +59,7 @@ public class PlutoTest {
         assertEquals(0, rover.getX());
         assertEquals(0, rover.getY());
         assertEquals(Direction.WEST, rover.getDirection());
+        assertEquals("Arrived safely at destination", rover.getReport());
     }
 
     @Test
@@ -56,6 +68,7 @@ public class PlutoTest {
         assertEquals(2, rover.getX());
         assertEquals(2, rover.getY());
         assertEquals(Direction.EAST, rover.getDirection());
+        assertEquals("Arrived safely at destination", rover.getReport());
     }
 
     @Test
@@ -63,6 +76,7 @@ public class PlutoTest {
         rover.execute("FFFFFFFFFFF");
         assertEquals(0, rover.getX());
         assertEquals(0, rover.getY());
+        assertEquals("Arrived safely at destination", rover.getReport());
     }
 
     @Test
@@ -70,6 +84,7 @@ public class PlutoTest {
         rover.execute("B");
         assertEquals(0, rover.getX());
         assertEquals(10, rover.getY());
+        assertEquals("Arrived safely at destination", rover.getReport());
     }
 
     @Test
@@ -77,6 +92,7 @@ public class PlutoTest {
         rover.execute("RFFFFFFFFFFF");
         assertEquals(0, rover.getX());
         assertEquals(0, rover.getY());
+        assertEquals("Arrived safely at destination", rover.getReport());
     }
 
     @Test
@@ -84,6 +100,7 @@ public class PlutoTest {
         rover.execute("LF");
         assertEquals(10, rover.getX());
         assertEquals(0, rover.getY());
+        assertEquals("Arrived safely at destination", rover.getReport());
     }
 
     @Test
@@ -94,6 +111,7 @@ public class PlutoTest {
         rover.execute("B");
         assertEquals(2, rover.getX());
         assertEquals(0, rover.getY());
+        assertEquals("Arrived safely at destination", rover.getReport());
     }
 
 }
